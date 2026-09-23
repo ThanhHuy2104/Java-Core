@@ -1,3 +1,5 @@
+import java.time.LocalDate;
+
 public class OutputDemo {
     public static void main(String[] args) {
         // Escape Characters
@@ -47,5 +49,6 @@ public class OutputDemo {
             System.out.println("+------+--------------------+");
 
         }
+        LocalDate minDate = LocalDate.now().minusYears(1); // Trừ đi 1 năm
     }
 }
