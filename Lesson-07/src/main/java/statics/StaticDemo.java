@@ -10,8 +10,14 @@ public class StaticDemo {
         // method
         int sum = Student.sum(1, 10);
         System.out.println("sum = " + sum);
-    }
 
+        Student s1 = new Student(1, "A");
+        Student s2 = new Student(1, "B");
+        Student s3 = new Student(1, "C");
+
+        System.out.println("Student.count = " + Student.count);
+    }
+    // class
     private static class Math{
         public static double PI = 3.14;
     }
